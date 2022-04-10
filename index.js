@@ -33,3 +33,5 @@ app.listen(process.env.PORT || 3001, function() {
   console.log("Corriendo servidor en el puerto 3001");
 });
 
+module.exports = app
+
