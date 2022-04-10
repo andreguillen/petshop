@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">	
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<!-- Collection of nav links, forms, and other content for toggling -->
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+		<a href="/"><img id="logo" src="/img/logo.png" width="160px"></a>
+        <div class="navbar-nav">
+		    <a href="#" class="nav-item nav-link">Promociones</a>			
+			<div class="nav-item dropdown">
+				<a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle">Categorías</a>
+				<div class="dropdown-menu">					
+					<a href="#" class="dropdown-item">Alimento Seco</a>
+					<a href="#" class="dropdown-item">Alimento Húmedo</a>
+					<a href="#" class="dropdown-item">Cuidados y belleza</a>
+                    <a href="#" class="dropdown-item">Cuchas y camas</a>
+					<a href="#" class="dropdown-item">Bandeja y material sanitario</a>
+                </div>
+            </div>
+			<a href="#" class="nav-item nav-link">Envíos</a>
+		</div>
+		<form class="navbar-form form-inline">
+			<div class="input-group search-box">								
+				<input type="text" id="search" class="form-control" placeholder="Ej.: bandeja sanitaria">
+				<div class="input-group-append">
+					<span class="input-group-text">
+						<i class="material-icons">&#xE8B6;</i>
+					</span>
+				</div>
+			</div>
+		</form>
+		<div class="navbar-nav ml-auto action-buttons">
+            <a href="/users/login"><button type="button" class="btn btn-primary btn-sm">Mi cuenta</button></a>
+            <a href="/carrito"><button type="button" class="btn btn-primary btn-sm">Mi carrito</button></a>
+            <a href="/products/"><button type="button" class="btn btn-primary btn-sm">Todos los productos</button></a>
+            <a href="/products/create"><button type="button" class="btn btn-primary btn-sm">Cargar producto</button></a>
+        </div>
+	</div>
+</nav>
+<hr class="linea">

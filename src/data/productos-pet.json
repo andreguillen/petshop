@@ -1,0 +1,451 @@
+[
+ {
+  "id": 1,
+  "name": "Pouch Fancy nuevo producto",
+  "price": "137",
+  "discount": "16",
+  "category": "in-sale",
+  "description": "aca edité para probar",
+  "image": "Pouch-fancy-feast.png"
+ },
+ {
+  "id": 2,
+  "name": "Comedero Nuevo- Bebedero Para Gato",
+  "price": "1637",
+  "discount": "10",
+  "category": "in-sale",
+  "description": "Probando editar producto\r\n",
+  "image": "comedor_1.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Cama Huella Paris Gris",
+  "price": 7200,
+  "discount": 0,
+  "category": "in-sale",
+  "description": "La Cama Huella París, es una gran alternativa para darle a tu perro un descanso de calidad. Ofrece un diseño chic y moderno para combinar con las decoraciones de tu hogar, pero sobre todo está confeccionada de forma que sea cómoda, suave y mullida para asegurar el confort de tu mascota.",
+  "image": "cucha.jpg"
+ },
+ {
+  "id": 5,
+  "name": "Juguete Catit 3 en 1 con Rascador",
+  "description": "El Juguete Catit 3 en 1 con Rascador, es ideal para los gatos que aman rascar, ya que en el centro del juguete se encuentra una almohadilla de cartón corrugado para satisfacer todas las necesidades de rascar de tu gato. El rascado es una gran manera para que tu gato descargue estrés, a la vez que desgasta sus uñas en una superficie diseñada para eso. La diversión no termina ahí, porque el juego también incluye un circuito con pelota y una abeja saltarina que activan los instintos cazadores de tu gato, contribuyendo a su entretenimiento y desarrollo mental.",
+  "price": 2900,
+  "discount": 20,
+  "image": "rascador.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 6,
+  "name": "Kit Acuario Tetra Deluxe",
+  "description": "El Kit de acuario Tetra esta totalmente equipado con elementos de primera calidad, listo para su armado y un perfecto funcionamiento. Destinado a aquellos que desean comenzar un hobby con lo mejor y sin errores. Los Kits incluyen sistema de filtrado, acondicionador, alimento, material de lectura indispensable y de fácil comprensión, decoración y accesorios para su puesta en marcha. Dimensiones: 50 x 35 x 25cm ",
+  "price": "9560",
+  "discount": "30",
+  "image": "kit-acuario.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 7,
+  "name": "Magnesium hydroxide",
+  "price": 33710.33,
+  "discount": 11,
+  "category": "Glass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/249x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 8,
+  "name": "producto nuevo 19",
+  "price": "43873.7",
+  "discount": "20",
+  "category": "visited",
+  "description": "es una prueba de editar",
+  "image": "http://dummyimage.com/138x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 9,
+  "name": "Triamcinolone Acetonide",
+  "price": 92770.66,
+  "discount": 85,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 10,
+  "name": "Titanium Dioxide",
+  "price": 98758.93,
+  "discount": 18,
+  "category": "Plastic",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/110x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 11,
+  "name": "Aspergillus fumigatus",
+  "price": 69201.36,
+  "discount": 40,
+  "category": "Plastic",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/217x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 12,
+  "name": "Ibuprofen",
+  "price": 57335.24,
+  "discount": 94,
+  "category": "Brass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/196x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 13,
+  "name": "Atenolol",
+  "price": 63185.66,
+  "discount": 38,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/161x100.png/dddddd/000000"
+ },
+ {
+  "id": 14,
+  "name": "Imipramine Hydrochloride",
+  "price": 49350.57,
+  "discount": 45,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/243x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 15,
+  "name": "Menthol and Methyl Salicylate",
+  "price": 53881.3,
+  "discount": 78,
+  "category": "Granite",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/207x100.png/dddddd/000000"
+ },
+ {
+  "id": 16,
+  "name": "Cefadroxil",
+  "price": 6470.5,
+  "discount": 58,
+  "category": "Aluminum",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/174x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 17,
+  "name": "Dexmethylphenidate Hydrochloride",
+  "price": 22326.57,
+  "discount": 83,
+  "category": "Wood",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/189x100.png/dddddd/000000"
+ },
+ {
+  "id": 18,
+  "name": "Escitalopram",
+  "price": 79588.95,
+  "discount": 87,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 19,
+  "name": "GLYCERIN, PHENYLEPHRINE HYDROCHLORIDE, PRAMOXINE HYDROCHLORIDE, and PETROLATUM",
+  "price": 50209.84,
+  "discount": 99,
+  "category": "Vinyl",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/222x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 20,
+  "name": "Mometasone furoate",
+  "price": 25326.28,
+  "discount": 60,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/196x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 21,
+  "name": "Menthol",
+  "price": 92995.98,
+  "discount": 35,
+  "category": "Granite",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/112x100.png/dddddd/000000"
+ },
+ {
+  "id": 22,
+  "name": "Oxygen",
+  "price": 85074.07,
+  "discount": 71,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/146x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 23,
+  "name": "bismuth subsalicylate",
+  "price": 89295.5,
+  "discount": 28,
+  "category": "Plexiglass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 24,
+  "name": "ziprasidone hydrochloride",
+  "price": 49936.07,
+  "discount": 4,
+  "category": "Plexiglass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 25,
+  "name": "Lamotrigine",
+  "price": 50772.47,
+  "discount": 60,
+  "category": "Aluminum",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/232x100.png/dddddd/000000"
+ },
+ {
+  "id": 26,
+  "name": "Benzocaine",
+  "price": 32764.8,
+  "discount": 49,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/169x100.png/dddddd/000000"
+ },
+ {
+  "id": 27,
+  "name": "BENZALKONIUM CHLORIDE",
+  "price": 54119.8,
+  "discount": 89,
+  "category": "Vinyl",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 28,
+  "name": "Losartan Potassium and Hydrochlorothiazide",
+  "price": 65088.3,
+  "discount": 60,
+  "category": "Brass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 29,
+  "name": "Butorphanol Tartrate",
+  "price": 54918.19,
+  "discount": 30,
+  "category": "Plexiglass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/235x100.png/dddddd/000000"
+ },
+ {
+  "id": 30,
+  "name": "Pravastatin Sodium",
+  "price": 80100,
+  "discount": 59,
+  "category": "Glass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/242x100.png/dddddd/000000"
+ },
+ {
+  "id": 31,
+  "name": "Bisacodyl",
+  "price": 57071.15,
+  "discount": 94,
+  "category": "Wood",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/169x100.png/dddddd/000000"
+ },
+ {
+  "id": 32,
+  "name": "Zolmitriptan",
+  "price": 66133.64,
+  "discount": 76,
+  "category": "Brass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/122x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 33,
+  "name": "Octinoxate, octisalate, octocrylene, titanium dioxide",
+  "price": 81915.59,
+  "discount": 65,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/155x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 34,
+  "name": "DIVALPROEX SODIUM",
+  "price": 1294.5,
+  "discount": 11,
+  "category": "Aluminum",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 35,
+  "name": "Triclosan",
+  "price": 68750.45,
+  "discount": 76,
+  "category": "Glass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/148x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 36,
+  "name": "Sodium Fluoride",
+  "price": 29627.56,
+  "discount": 75,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/228x100.png/dddddd/000000"
+ },
+ {
+  "id": 37,
+  "name": "Clomipramine Hydrochloride",
+  "price": 90313.9,
+  "discount": 80,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 38,
+  "name": "DOXORUBICIN HYDROCHLORIDE",
+  "price": 67505.08,
+  "discount": 55,
+  "category": "Brass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/129x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 39,
+  "name": "House Dust",
+  "price": 66104.8,
+  "discount": 78,
+  "category": "Plexiglass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/239x100.png/dddddd/000000"
+ },
+ {
+  "id": 40,
+  "name": "MENTHOL",
+  "price": 55214.98,
+  "discount": 82,
+  "category": "Plexiglass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/189x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 41,
+  "name": "Methocarbamol",
+  "price": 22093.5,
+  "discount": 54,
+  "category": "Brass",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/220x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 42,
+  "name": "Methocarbamol",
+  "price": 32758.56,
+  "discount": 58,
+  "category": "Wood",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+ },
+ {
+  "id": 43,
+  "name": "Megestrol Acetate",
+  "price": 1966.05,
+  "discount": 100,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/127x100.png/5fa2dd/ffffff"
+ },
+ {
+  "id": 44,
+  "name": "Phenazopyridine HCl",
+  "price": 46930.4,
+  "discount": 24,
+  "category": "Stone",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/210x100.png/dddddd/000000"
+ },
+ {
+  "id": 45,
+  "name": "Eprosartan Mesylate and Hydrochlorothiazide",
+  "price": 16218.4,
+  "discount": 53,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/163x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 46,
+  "name": "Tricolsan",
+  "price": 80964.8,
+  "discount": 53,
+  "category": "Rubber",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/194x100.png/dddddd/000000"
+ },
+ {
+  "id": 47,
+  "name": "Triclosan",
+  "price": 35892.55,
+  "discount": 5,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/197x100.png/dddddd/000000"
+ },
+ {
+  "id": 48,
+  "name": "Stannous Fluoride",
+  "price": 14074.6,
+  "discount": 95,
+  "category": "Rubber",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/144x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 49,
+  "name": "calcium carbonate",
+  "price": 71624.8,
+  "discount": 67,
+  "category": "Steel",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/100x100.png/dddddd/000000"
+ },
+ {
+  "id": 50,
+  "name": "ESZOPICLONE",
+  "price": 35981.2,
+  "discount": 6,
+  "category": "Aluminum",
+  "description": "Royal Canin Medium Puppy",
+  "image": "http://dummyimage.com/243x100.png/cc0000/ffffff"
+ },
+ {
+  "id": 51,
+  "name": "producto1",
+  "price": 130,
+  "discount": 10,
+  "category": "alimseco",
+  "description": "jaja"
+ }
+]

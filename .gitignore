@@ -1,0 +1,5 @@
+.DS_Store
+/node_modules
+/views/carrito2.html
+/views/carrito copy.ejs
+.env

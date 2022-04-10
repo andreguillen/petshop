@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('../partials/head') %>
+    </head>
+
+<body id="fondobody">
+
+    <header id="header">
+        <%- include('../partials/header') %>            
+    </header>
+
+    <main id="fondomain">
+        <br>
+            <h1 id="titulo">  Perfil de <%= usuario.name %> <%=usuario.lastname%></h1>
+            <div id=container>
+            <form id="form" action="" method="" >
+                <br>
+                <input class="formulario" type="text" placeholder="Nombre" name="name" id="nombre" value= <%=usuario.name%>>  </input>
+                <br>
+                <input class="formulario" type="text" placeholder="Apellido" name="last-name" id="nombre" value=<%=usuario.lastName%>> </input>
+                <br>
+                <input class="formulario" type="email" placeholder="Email" name="emails" id="email" value =<%=usuario.email%>> </input>
+                <br>
+                <input class="formulario" type="text" placeholder= "Telefono" name="telefonos" id="telefono" value =<%=usuario.telephone%>> </input>
+                <br>
+                <input class="formulario" type="text" placeholder= "Tipo de usuario" name="tipo" id="tipo"> </input>
+                <br>
+                <img src=<%=usuario.image%>></img>
+                <br>
+                <br>
+                <button class="botoncito"> Editar </button><a href="/users/logout"><button type="button" class="botoncito"> Cerrar sesión </button></a>
+                <br>
+                <br>
+            </form>
+        </div>     
+    </main>             
+        
+        <hr class="linea">
+
+    <footer class="footer">
+        <%- include ('../partials/footer') %>
+    </footer> 
+    
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    -->
+    
+</body>
+</html>

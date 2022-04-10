@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <%- include('../partials/head') %>   
+  </head>
+
+  <body id="fondobody">
+
+    <header id="header">
+      <%- include('../partials/header') %>
+    </header>
+
+    <main>
+      <div class="container products-wrapper">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="products-title">Estás editando: <i><%=ProductoaEditar.name %></i></h2>
+          </div>
+        </div>
+        <div class="col-12">
+          <form action="/products/edit/<%=ProductoaEditar.id%>?_method=PUT" method="POST">
+            <div class="row product-detail">
+              <div class="col-12 col-md-6">
+                <label for="name" class="form-label">Nombre del producto:</label>
+                <input value="<%=ProductoaEditar.name %>" type="text" id="name" name="name" placeholder="Alimento Seco Cat chow" class="form-input">
+                <% if (locals && locals.errors) { %>
+                  <% errors.forEach(error => { %>
+                    <% if (error.param=="name") { %>
+                      <h3> <%= error.msg%>  </h3> 
+                    <% } %>
+                  <% }) %> 
+                <% } %> 
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="price" class="form-label">Precio del producto:</label>
+                <input value="<%=ProductoaEditar.price %>" type="number" id="price" name="price" placeholder="$130,00" class="form-input">
+                <% if (locals && locals.errors) { %>
+                  <% errors.forEach(error => { %>
+                    <% if (error.param=="price") { %>
+                      <h3> <%= error.msg%>  </h3> 
+                    <% } %>
+                  <% }) %> 
+                <% } %> 
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="discount" class="form-label">Descuento:</label>
+                <input value="<%=ProductoaEditar.discount %>" type="number" id="discount" name="discount" placeholder="10%" class="form-input">
+                <% if (locals && locals.errors) { %>
+                  <% errors.forEach(error => { %>
+                    <% if (error.param=="discount") { %>
+                      <h3> <%= error.msg%>  </h3> 
+                    <% } %>
+                  <% }) %> 
+                <% } %> 
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="id_categoria" class="form-label">Categoría:</label>
+                <select name="id_categoria" id="category" class="form-input">
+                  <% for (let i = 0; i < categoria.length;i++){ %>
+                    <% if (categoria[i].id == ProductoaEditar.id_categoria){ %>
+                      <option value="<%=categoria[i].id%>" selected> <%=categoria[i].typeCategory%> </option>
+                    <% } else { %>
+                      <option value="<%=categoria[i].id%>"> <%=categoria[i].typeCategory%> </option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="id_animal" class="form-label">Tipo de animal:</label>
+                <select name="id_animal" id="animal" class="form-input">
+                  <% for (let i = 0; i < animal.length;i++){ %>
+                    <% if (animal[i].id == ProductoaEditar.id_animal){ %>
+                      <option value="<%=animal[i].id%>" selected><%=animal[i].typeAnimal%></option>
+                    <% } else { %>
+                      <option value="<%=animal[i].id%>"><%=animal[i].typeAnimal%></option>
+                    <% } %>
+                  <% } %>
+                </select>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="qty" class="form-label">Cantidades:</label>
+                <input value="<%=ProductoaEditar.qty %>" type="number" id="qty" name="qty" placeholder="10" class="form-input">
+                <% if (locals && locals.errors) { %>
+                  <% errors.forEach(error => { %>
+                    <% if (error.param=="qty") { %>
+                      <h3> <%= error.msg%>  </h3> 
+                    <% } %>
+                  <% }) %> 
+                <% } %> 
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="imageProduct" class="form-label">Seleccionar Imagen:</label>
+                <input type="file" name="imageProduct"/>
+              </div>
+              <div class="col-12">
+                <label for="description" class="form-label">Descripción:</label>
+                <textarea name="description" id="description" class="form-input"><%=ProductoaEditar.description %></textarea>
+                <% if (locals && locals.errors) { %>
+                  <% errors.forEach(error => { %>
+                    <% if (error.param=="description") { %>
+                      <h3> <%= error.msg%>  </h3> 
+                    <% } %>
+                  <% }) %> 
+                <% } %> 
+              </div>
+              <div class="col-12">
+                <button type="submit" class="botoncito">Guardar producto</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <%- include ('../partials/footer') %>
+    </footer> 
+  </body>
+</html>
